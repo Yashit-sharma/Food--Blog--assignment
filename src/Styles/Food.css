@@ -1,0 +1,76 @@
+
+.food--main{
+    margin-bottom: 100px;
+}
+.food--heading > h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--primary, #0E2368);
+    font-family: Source Sans Pro;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 2.24px;
+}
+.food--items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    column-gap: 20px;
+    padding: 0px 40px;
+    margin-top: 41px;
+    width: 100%;
+    position: relative;
+}
+.card-title{
+    color: var(--primary, #0E2368);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;  
+}
+.card-text{
+    color: var(--body, #444957);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+    letter-spacing: -0.3px;
+}
+.read--more{
+    display: flex;
+    width: 90px;
+    height: 36px;
+    border-radius: 21px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: 1px solid #424961;
+}
+.pagination{
+    margin-top: 40px;
+    width: 70%;
+    position: relative;
+    left: 14%;
+    display: flex;
+    column-gap: 3rem;
+    justify-content: center;
+}
+.pagination--buttons{
+    font-size: 30px;
+    color: rgb(19, 24, 31);
+}
+
+@media screen and (max-width:768px){
+    .food--heading > h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:611px){
+    .food--heading > h2{
+        font-size: 40px;
+    }
+}
